@@ -33,4 +33,4 @@ RUN git clone https://github.com/open-mmlab/mmyolo.git /mmyolo && \
     cd /mmyolo && \
     mim install --no-cache-dir -e .
 
-WORKDIR /mmyolo
+WORKDIR /workspaces
